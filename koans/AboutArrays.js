@@ -55,7 +55,7 @@ describe("About Arrays", function() {
     expect(array.slice(5, 1)).toEqual([]);
   });
 
-  it("should know array references", function() {
+  it("should know array references", function(){
     var array = [ "zero", "one", "two", "three", "four", "five" ];
 
     function passedByReference(refArray) {

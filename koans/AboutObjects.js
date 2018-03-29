@@ -92,7 +92,7 @@ describe("About Objects", function() {
 
     var simpleCircle = new Circle(10);
     var colouredCircle = new Circle(5);
-    colouredCircle.colour = "red";
+    colouredCircle.colour = "red" ;
     
     expect(simpleCircle.colour).toBe(undefined);
     expect(colouredCircle.colour).toBe("red");
